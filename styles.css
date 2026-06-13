@@ -1,0 +1,10 @@
+:root{--bg:#0f1724;--card:#0b1220;--accent:#ff6b6b;--muted:#9aa4b2;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,var(--bg),#071020);color:#e6eef6}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:18px 32px}
+.logo{font-weight:700}
+.btn{padding:8px 14px;border-radius:8px;text-decoration:none;color:white;background:#222}
+.btn.primary{background:var(--accent)}
+.hero{display:flex;gap:32px;padding:48px;align-items:center}
+.hero-copy{max-width:520px}
+.hero-3d{flex:1;max-width:720px;min-height:420px;background:linear-gradient(180deg,#08122533,#0b1624);border-radius:16px;padding:12px}
+.features{padding:36px}
