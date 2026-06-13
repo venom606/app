@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Loom3D — Where Fashion Meets 3D</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/three@0.157.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.157.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Loom3D</div>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#how">How it works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#shop">Shop 3D</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Loom3D — Where Fashion Meets 3D</h1>
+        <p>Interactive 3D garments and couture-grade animations you can try on, customize, and buy.</p>
+        <div class="cta">
+          <a class="btn primary" href="#shop">Shop 3D Collection</a>
+          <a class="btn ghost" href="#demo">See Demo</a>
+        </div>
+      </div>
+      <div class="hero-3d">
+        <!-- 3D canvas -->
+        <canvas id="viewer" width="800" height="600" aria-label="3D garment viewer"></canvas>
+      </div>
+    </section>
+
+    <!-- short features -->
+    <section id="how" class="features">
+      <h2>How it works</h2>
+      <ol>
+        <li><strong>Explore:</strong> Open the interactive viewer.</li>
+        <li><strong>Customize:</strong> Change fabric and size live.</li>
+        <li><strong>Buy or Export:</strong> Purchase or send to AR.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2026 Loom3D — All rights reserved.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
